@@ -1,1 +1,32 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  position: absolute;
+  margin-left: 500px;
+  height: 600px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+#values {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 250px;
+  font-size: 80px;
+}
+#Suit-left {
+  position: absolute;
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+#Suit-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+  font-size: 50px;
+}
